@@ -1,0 +1,72 @@
+@import './variables';
+body{
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-font-smoothing: antialiased;
+    color: $dark;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.create{
+    width: 50%;  
+    height: calc(100%);
+    float: left;
+}
+#login{
+    width: 50%;
+    height: 800px;  /*change this */
+    background-color: grey;
+    float: right;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: lightgrey;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.card form{
+    margin: 50px;
+    padding: 10px;
+}
+.card h1{
+    margin: 15px;
+}
+.card #email{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card #password{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card #name{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card #submit{
+    &:hover{
+        color: $primary;
+    }
+    margin: 10px;
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px;
+    border-radius: 5px;
+}

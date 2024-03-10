@@ -1,0 +1,143 @@
+@import './variables';
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* body {
+
+
+    background: #FFD0EF;
+}*/
+body, html {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+overflow-x: hidden; /* Hide horizontal scrollbar */
+height: 100%;
+background:  #FFD0EF;
+position: relative;
+}
+
+.navbar {
+    height: 3rem;
+    background-color: #000000;
+    font-family: "Space Grotesk", sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x:hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.navdiv {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo a {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Marko One', sans-serif;
+
+}
+
+.pink {
+    color: #FBF4F9;
+}
+
+.wheels {
+    color: #F875AA;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+li a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+button {
+    background-color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+
+}
+
+.main {
+    background-image: url('../../public/img/front.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.content-container {
+    margin-top: 1rem;
+    width: 50%;
+    float: left;
+    padding: 25px;
+}
+
+p {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    // margin-left: 20px;
+    // margin-top: 20px;
+    margin: 40px;
+}
+
+#book,
+#tracker {
+    margin-top: 4rem;
+}
+
+#book {
+    margin-top: 6rem;
+}
+
+#ride {
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    background-color: #000000;
+    border: none;
+    color: #FFD0EF;
+    display: inline;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    margin-left: 80px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+#track {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    background-color: #000000;
+    border: none;
+    color: #FFD0EF;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-left: 120px;
+}
